@@ -45,7 +45,12 @@ const Folder = ({ folderData }) => {
   } else {
     return (
       <>
-        <span>{name}</span>
+        <span style={{
+            backgroundColor: "brown",
+            padding: "10px",
+            borderRadius: "10px",
+            color: "white",
+          }}>{name} ({folderData?.size})</span>
       </>
     );
   }
