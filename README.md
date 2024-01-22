@@ -1,8 +1,5 @@
-# React + Vite
+# File Explorer UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Building a **JSON structure** for a **File Explorer UI** involves considering various aspects such as folders, files, hierarchy, and metadata. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ **A hierarchical representation** where each folder can contain **sub-folders and files**. Feel free to modify and expand the structure based on your specific needs, including additional metadata or properties for each file or folder. **The Key** is to maintain the hierarchical relationship in the **"children"** property.
